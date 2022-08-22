@@ -6,11 +6,11 @@ Mohammadjafari, S., Cevik, M. \& Basar, A. VARGAN: variance enforcing network en
 # Repository structure
 There are three folders available, each containing the codes for different datasets. 
 
-[Synthetic data experiments](https://github.com/RyersonU-DataScienceLab/Sanaz_VARGAN/tree/main/Synthetic%20data%20experiments) folder contains the experiments for synthetic ring and grids.
+[Synthetic data experiments](https://github.com/sanazMj/PhD_Thesis_repo/tree/main/Chapter%202/Synthetic%20data%20experiments) folder contains the experiments for synthetic ring and grids.
 
-[Stacked MNIST experiments](https://github.com/RyersonU-DataScienceLab/Sanaz_VARGAN/tree/main/stacked%20MNIST%20experiments) folder contains the experiments for stacked MNIST data.
+[Stacked MNIST experiments](https://github.com/sanazMj/PhD_Thesis_repo/tree/main/Chapter%202/Stacked%20MNIST%20experiments) folder contains the experiments for stacked MNIST data.
 
-[EES experiments](https://github.com/RyersonU-DataScienceLab/Sanaz_VARGAN/tree/main/EES%20experiments) folder contains files on EES training for 9x9 and 19x19 designs. 
+[EES experiments](https://github.com/sanazMj/PhD_Thesis_repo/tree/main/Chapter%202/EES%20experiments) folder contains files on EES training for 9x9 and 19x19 designs. 
 
 # Structure of experiments
 All the experiments pretty much follow the same routine. 
