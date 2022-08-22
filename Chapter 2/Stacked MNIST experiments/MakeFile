@@ -1,0 +1,23 @@
+##################################################################
+##################Table 3.3#################
+#################################################################
+START_LOGS= 0
+run:
+	python run_multiple_experiments.py --num_epochs 50 --Model_structure 'FF' --mode_collapse 'PacGAN'
+	python metric_extraction_MNIST.py --path '\ryerson\projects' --files [1+START_LOGS,2+START_LOGS,3+START_LOGS,4+START_LOGS,5+START_LOGS]
+START_LOGS= 5
+run:
+	python run_multiple_experiments.py --num_epochs 50 --Model_structure 'Convolutional' --mode_collapse 'PacGAN'
+	python metric_extraction_MNIST.py --path '\ryerson\projects' --files [1+START_LOGS,2+START_LOGS,3+START_LOGS,4+START_LOGS,5+START_LOGS]
+START_LOGS= 0
+run:
+	python run_multiple_experiments.py --num_epochs 50 --Model_structure 'FF' --mode_collapse 'PacGAN'
+	python metric_extraction_MNIST.py --path '\ryerson\projects' --files [1+START_LOGS,2+START_LOGS,3+START_LOGS,4+START_LOGS,5+START_LOGS]
+START_LOGS= 5
+run:
+	python run_multiple_experiments.py --num_epochs 50 --Model_structure 'Convolutional' --mode_collapse 'PacGAN'
+	python metric_extraction_MNIST.py --path '\ryerson\projects' --files [1+START_LOGS,2+START_LOGS,3+START_LOGS,4+START_LOGS,5+START_LOGS]
+
+clean:
+	rm -rf __pycache__
+.PHONY:	run clean

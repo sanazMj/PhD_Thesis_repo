@@ -1,0 +1,21 @@
+
+##################################################################
+##################Table 3.2#################
+#################################################################
+START_LOGS= 0
+run:
+	python run_multiple_experiments.py --num_epochs 50 --dataset 'grid' --n_mixture 36 --num_iterations 5
+	python Results.py --path '\ryerson\projects\' --files [1,2,3,4,5] --model 'GAN' --structure 'FF' --n_mixture 36 --name 'grid_36'
+START_LOGS= 5
+run:
+	python run_multiple_experiments.py --num_epochs 50 --dataset 'grid' --n_mixture 25 --num_iterations 5
+	python Results.py --path '\ryerson\projects\' --files [1+START_LOGS,2+START_LOGS,3+START_LOGS,4+START_LOGS,5+START_LOGS] --model 'GAN' --structure 'FF' --n_mixture 25 --name 'grid_25'
+START_LOGS= 10
+run:
+	python run_multiple_experiments.py --num_epochs 50 --dataset 'ring' --n_mixture 8 --num_iterations 5
+	python Results.py --path '\ryerson\projects\' --files [1+START_LOGS,2+START_LOGS,3+START_LOGS,4+START_LOGS,5+START_LOGS]  --model 'GAN' --structure 'FF' --n_mixture 8 --name 'ring_8'
+
+
+clean:
+	rm -rf __pycache__
+.PHONY:	run clean
