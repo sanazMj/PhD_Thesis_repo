@@ -1,5 +1,5 @@
 # PhD_Thesis_repo
-This repository contains the code for the three chapters of my PhD thesis, called "Novel Generative Adversarial Network Architectures for Generating Discrete Image Data".
+This repository contains the code for the three chapters of my PhD thesis, called "Novel Generative Adversarial Network Architectures for Generating Binary Image Data".
 ## Chapter 1. 
 
 This chapter contains the codes for the following publication:
