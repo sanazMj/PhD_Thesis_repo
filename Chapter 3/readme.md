@@ -6,11 +6,10 @@ Mohammadjafari, S., Cevik, M. \& Basar, A. Improved $\alpha$-GAN architecture fo
 # Repository structure
 
 There are two folders available.
+[Synthetic data generation](https://github.com/sanazMj/PhD_Thesis_repo/tree/main/Chapter%203/Synthetic%20data%20generation) folder contains files on generating synthetic data for the paper. 
 
-[GAN experiments](https://github.com/RyersonU-DataScienceLab/Sanaz_3D_tumorGAN/tree/main/GAN%20experiments) folder contains baseline GANs and AlphaWGAN experiments.
+Use the files in this folder to create the target synthetic data.
 
-[Synthetic data generation](https://github.com/RyersonU-DataScienceLab/Sanaz_3D_tumorGAN/tree/main/Synthetic%20data%20generation) folder contains files on generating synthetic data for the paper. 
+[GAN experiments](https://github.com/sanazMj/PhD_Thesis_repo/tree/main/Chapter%203/GAN%20experiments) folder contains baseline GANs and AlphaWGAN experiments.
 
-# Steps
-* Use files in Synthetic data generation folder to create the synthetic data.
-* Use GAN\AlphaWGAN experiments to run the models.
+Use GAN\AlphaWGAN experiments to run the models and create the log files.
