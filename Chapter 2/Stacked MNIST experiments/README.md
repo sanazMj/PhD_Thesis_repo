@@ -10,7 +10,7 @@ You can train the model by calling [run_multiple_exp.py](https://github.com/sana
 python run_multiple_exps.py --num_epochs 50 
 ```
 # Results:
-Run the metrix_extraction_MNIST.py to find the results over seven different metrics.
+Run the [metrix_extraction_MNIST.py](https://github.com/sanazMj/PhD_Thesis_repo/blob/main/Chapter%202/Stacked%20MNIST%20experiments/metric_extraction_MNIST.py) to find the results over seven different metrics.
 ```
 python metric_extraction_MNIST.py --path '\ryerson\projects' --files [1,2,3]
 ```
