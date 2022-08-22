@@ -18,7 +18,7 @@ Tumors have different sets of isocenters. For each isocenter a small sphere is c
 
 <a href="url"><img src="https://github.com/RyersonU-DataScienceLab/Sanaz_3D_tumorGAN/blob/main/Synthetic%20data%20generation/Figures/Matlab_8_sio.PNG" align="middle" height="200" width="700" ></a>
 
-Use main.py to generate a sample dataset. main.py contains two sets of commands for synthetic data generation. 
+Use [main.py](https://github.com/sanazMj/PhD_Thesis_repo/blob/main/Chapter%203/Synthetic%20data%20generation/main.py) to generate a sample dataset. main.py contains two sets of commands for synthetic data generation. 
 * 3D connected volume with/without packed spheres generation
   * Define the sample size, dimension and number of isocenters (e.g. 7) you want to create. The created samples will be saved in .h5 file.
 ```
