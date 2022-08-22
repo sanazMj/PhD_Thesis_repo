@@ -8,7 +8,7 @@ http://dx.doi.org/10.1007/s00521-020-05656-2.
 # Repository structure
 There are two folders available, each containing the codes for different datasets. 
 
-[MNIST experiments](https://github.com/RyersonU-DataScienceLab/Sanaz_GAN_EES/tree/main/MNIST%20experiments) folder contains .ipynb files for sample models (Vanilla GAN, Conditional GAN, Convolutional GAN, Conditional Convolutional GAN).
+[MNIST experiments](https://github.com/sanazMj/PhD_Thesis_repo/tree/main/Chapter%201/MNIST%20experiments) folder contains .ipynb files for sample models (Vanilla GAN, Conditional GAN, Convolutional GAN, Conditional Convolutional GAN).
 
-[EES experiments](https://github.com/RyersonU-DataScienceLab/Sanaz_GAN_EES/tree/main/EES%20experiments) folder contains files on EES training for 9x9 and 19x19 designs. 
+[EES experiments](https://github.com/sanazMj/PhD_Thesis_repo/tree/main/Chapter%201/EES%20experiments) folder contains files on EES training for 9x9 and 19x19 designs. 
 
