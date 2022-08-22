@@ -5,7 +5,7 @@ One can use the following directions to create a synthetic version of the datase
   * Generate every binary pattern in a 5x5 square. 
   * Use half of the square, rotate it and combine the rotations to have eight fold symmetry.
 # Training:
-You can train the model by calling [run_multiple_experiments.py](https://github.com/RyersonU-DataScienceLab/Sanaz_VARGAN/new/main/EES%20experiments). Set the configuration details as you wish. 
+You can train the model by calling [run_multiple_experiments.py](https://github.com/sanazMj/PhD_Thesis_repo/blob/main/Chapter%202/EES%20experiments/run_multiple_experiments.py). Set the configuration details as you wish. 
 ```
 python run_multiple_exps.py --num_epochs 50 
 ```
